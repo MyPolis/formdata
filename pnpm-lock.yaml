@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@tsconfig/node24':
-        specifier: ^24.0.1
-        version: 24.0.1
+        specifier: ^24.0.4
+        version: 24.0.4
       '@types/node':
         specifier: 24.1.0
         version: 24.1.0
@@ -18,8 +18,8 @@ importers:
         specifier: ^4.21.0
         version: 4.21.0
       typescript:
-        specifier: ^5.8.3
-        version: 5.8.3
+        specifier: ^5.9.3
+        version: 5.9.3
 
 packages:
 
@@ -179,8 +179,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@tsconfig/node24@24.0.1':
-    resolution: {integrity: sha512-3+IXshza3bIrT0tbHBr9CixQDVf4iBf0HTR0hCYowhpLqkzJjswu3UY8aZWjRXZep31kYB+o2SQeD8KwIoUHYw==}
+  '@tsconfig/node24@24.0.4':
+    resolution: {integrity: sha512-2A933l5P5oCbv6qSxHs7ckKwobs8BDAe9SJ/Xr2Hy+nDlwmLE1GhFh/g/vXGRZWgxBg9nX/5piDtHR9Dkw/XuA==}
 
   '@types/node@24.1.0':
     resolution: {integrity: sha512-ut5FthK5moxFKH2T1CUOC6ctR67rQRvvHdFLCD2Ql6KXmMuCrjsSsRI9UsLCm9M18BMwClv4pn327UvB7eeO1w==}
@@ -206,8 +206,8 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  typescript@5.8.3:
-    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -294,7 +294,7 @@ snapshots:
   '@esbuild/win32-x64@0.27.3':
     optional: true
 
-  '@tsconfig/node24@24.0.1': {}
+  '@tsconfig/node24@24.0.4': {}
 
   '@types/node@24.1.0':
     dependencies:
@@ -345,6 +345,6 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  typescript@5.8.3: {}
+  typescript@5.9.3: {}
 
   undici-types@7.8.0: {}
